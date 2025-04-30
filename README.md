@@ -1,36 +1,25 @@
-# Solar Panel Sizing Advisor
+DESCRIPTION
+This is a simple but helpful web app built with Flask that guides users in choosing the right solar panel system for their home or business. It takes into account how much energy you use, sunlight data for your location, and available solar panel options. It even breaks down the cost, shows your return on investment, and gives you a visual idea of how the panels would be laid out.
 
-## Objective
-Estimate solar system size for homes
+SETUP INSTRUCTIONS
+Clone the repository; git clone https://github.com/your-username/solar-sizing-advisor.git cd solar-sizing-advisor
+Create a virtual environment; python -m venv venv source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install dependencies; pip install -r requirements.txt
+Run the app; flask run
 
-## Possible Computational Techniques
-1. Energy calculation formulas
-2. Lookup tables
+TEAM MEMBERS
+Daniel Stephanie SEN-22-7155 - Back End developer, Documentation
+Ede Precious SEN-22-8397 - Front End developer
+Ejekoko Stephanie SEN-23-9892 - Data analyst
 
-## Flask UI Component
-1. Form inputs
-2. summary block of system spec
+DATASET SOURCES
+https://www.energy.gov/data-catalog
+https://www.nrel.gov/grid/solar-resource-data.html
 
-## Types of Dataset
-1. Solar radiation data
-2. power consumption patterns
+ADDED SCREENSHOTS
+Home
+![Homepage Screenshot](screenshots/home.jpg)
 
-## Possible Sources for Dataset
-1. Energy department data
-2. solar industry specifications
+Analysis
+![Result Screenshot](screenshots/analysis.jpg)
 
-## Dataset URLs
-1. https://www.energy.gov/data-catalog
-2. https://www.nrel.gov/grid/solar-resource-data.html
-
-## Setup Instructions
-19. Solar Panel Sizing Advisor
-1. Flask app with energy use, location, and roof specs
-2. Calculate energy needs using formulas
-3. Use irradiance lookup tables
-4. Build solar panel spec database
-5. Calculate ROI
-6. Recommend number/type of panels
-7. Estimate costs and savings
-8. Show visual system layout
-9. Test with different house types
